@@ -26,5 +26,12 @@ namespace FetchAndStore.Controllers
 
             return View();
         }
+
+        public ActionResult FetchAndStore()
+        {
+            ViewBag.Message = "Go Fetch Yourself.";
+
+            return View();
+        }
     }
 }
